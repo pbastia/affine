@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - chore/local-build
+  pull_request:
+    branches:
+      - canary
 
 permissions:
   contents: write
